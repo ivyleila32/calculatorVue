@@ -77,7 +77,7 @@ export default {
  
 }
 .contenedor {
-  background-color: lightcoral;
+  background-color: #0F1123;
   border-color: coral;
   flex: 1 0 auto;
   padding: 0.6em;
@@ -85,18 +85,67 @@ export default {
 
 }
 .display {
-  background-color: gray;
+  background-color: black;
   color: 354E346;;
   height: 10%;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 4em;
+  margin: 5px;
+  
+}
+#texto {
+  padding: 20px;
+  color: #A7D129;
+  font-family: calculator;
+  font-size: 50px;
+  text-align:center;
+  align-items: baseline
+  ;
+
+
 }
 
 .botoneras {
-  background-color: rgb(70, 155, 174);
+  background-color: #4E3D53;
   color: white;
   display: flex;
   flex-direction: row;
+   padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 50px;
+  padding-left: 4em;
+  
+
+}
+.botoneras button {
+  width: 33.3%;
+  font-size: 150%;
+  background: #A6F0C6;
+  border-radius: 0.5em;
+}
+.botonera-izq {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.botonera-der{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+   align-items: center;
 }
 
+.botonera-der button{
+  width: 70%;
+
+}
+/* todo el estilo del formlario de la derecha*/
 .formulario {
   background-color: rgb(146, 103, 33);
   display: flex;
@@ -116,32 +165,5 @@ export default {
     text-overflow: ellipsis;
     color: #fff;
 }
-
-.botonera-izq {
-  width: 70%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-
-}
-.botoneras button {
-  width: 33.3%;
-  font-size: 150%;
-  background: pink;
-  border-radius: 0.5em;
-}
-.botonera-der{
-  width: 30%;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-   align-items: center;
-}
-.botonera-der button{
-  width: 70%;
-
-}
-
 
 </style>
