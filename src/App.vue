@@ -85,6 +85,7 @@ export default {
 
 }
 .display {
+  display: flex;
   background-color: black;
   color: 354E346;;
   height: 10%;
@@ -94,15 +95,17 @@ export default {
   padding-left: 4em;
   margin: 5px;
   
+  
 }
 #texto {
-  padding: 20px;
+
   color: #A7D129;
   font-family: calculator;
   font-size: 50px;
-  text-align:center;
-  align-items: baseline
-  ;
+  text-align:right;
+  width: 100%;
+
+
 
 
 }
